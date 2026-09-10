@@ -22,7 +22,18 @@ x install brows
 - **Latest**: `v0.1.3` (2026-06-01)
 - **Last commit**: 2026-06-01
 - **Assets in release**: 7
-- **Published**: 2026-06-01T14:33:35Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [brows_darwin_amd64.tar.gz](https://github.com/rubysolo/brows/releases/download/v0.1.3/brows_darwin_amd64.tar.gz) | 6.5 MiB | `native/darwin/x64` |
+| [brows_darwin_arm64.tar.gz](https://github.com/rubysolo/brows/releases/download/v0.1.3/brows_darwin_arm64.tar.gz) | 5.9 MiB | `native/darwin/arm64` |
+| [brows_linux_amd64.tar.gz](https://github.com/rubysolo/brows/releases/download/v0.1.3/brows_linux_amd64.tar.gz) | 6.3 MiB | `native/linux/x64` |
+| [brows_linux_arm64.tar.gz](https://github.com/rubysolo/brows/releases/download/v0.1.3/brows_linux_arm64.tar.gz) | 5.7 MiB | `native/linux/arm64` |
+| [brows_windows_amd64.zip](https://github.com/rubysolo/brows/releases/download/v0.1.3/brows_windows_amd64.zip) | 6.5 MiB | `native/win/x64` |
+| [brows_windows_arm64.zip](https://github.com/rubysolo/brows/releases/download/v0.1.3/brows_windows_arm64.zip) | 5.7 MiB | `native/win/arm64` |
+| [checksums.txt](https://github.com/rubysolo/brows/releases/download/v0.1.3/checksums.txt) | 546 B | `other` |
 
 ## Popularity
 
@@ -54,8 +65,8 @@ Total: **574** lines of code across **5** files in the top 5 languages.
 Install metadata for brows lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `brows` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/brows.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/brows.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:32:33Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:15:00Z._
